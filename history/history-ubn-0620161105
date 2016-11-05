@@ -1,0 +1,26 @@
+    1   
+    2  echo " " > .bash_history
+    3  cd LXS2_dca/
+    4  ls
+    5  history > file 
+    6  ls
+    7  cat file 
+    8  rm file 
+    9  sls
+   10  ls
+   11  echo $HOSTNAME 
+   12  history > history/history-$HOSTNAME
+   13  LS
+   14  ls
+   15  ls history/
+   16  tre
+   17  tree
+   18  sudo apt install tree
+   19  date
+   20  date +
+   21  date
+   22  date + %Y%m%d
+   23  date +%Y%m%d
+   24  date 
+   25  date +%Y%m%d
+   26  history > history/history-$HOSTNAME`date +%Y%m%d`
