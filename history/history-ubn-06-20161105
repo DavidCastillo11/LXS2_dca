@@ -26,3 +26,396 @@
    26  history > history/history-$HOSTNAME`date +%Y%m%d`
    27  tree
    28  history > history/history-$HOSTNAME-`date +%Y%m%d`
+    1   
+    2  echo " " > .bash_history
+    3  sudo apt-get update ; sudo apt-get install tree
+    4  ip -4 addr
+    5  ipconfig
+    6  ifconfig
+    7  netstat -ltunpa
+    8  netstat -latun
+    9  netstat -latunp | 22
+   10  netstat -latunp | grep 22
+   11  cd /etc/
+   12  ls
+   13  cd apt
+   14  ls
+   15  nano sources.list 
+   16  sudo apt-get update ; sudo apt-get install tree
+   17  tree
+   18  exit
+   19  ls
+   20  cd LXS2_dca/
+   21  ls
+   22  git remote -v
+   23  git pull origin master 
+   24  cd
+   25  ls
+   26  cd LXS2_evb/
+   27  ls
+   28  git pull origin master 
+   29  exit
+   30  ifconfig
+   31  dhclient 
+   32  ifconfig eno1 shutdown
+   33  cd LXS2_dca/
+   34  ls
+   35  history > file 
+   36  ls
+   37  cat file 
+   38  rm file 
+   39  sls
+   40  ls
+   41  echo $HOSTNAME 
+   42  history > history/history-$HOSTNAME
+   43  LS
+   44  ls
+   45  ls history/
+   46  tre
+   47  tree
+   48  sudo apt install tree
+   49  date
+   50  date +
+   51  date
+   52  date + %Y%m%d
+   53  date +%Y%m%d
+   54  date 
+   55  date +%Y%m%d
+   56  history > history/history-$HOSTNAME`date +%Y%m%d`
+   57  tree
+   58  history > history/history-$HOSTNAME-`date +%Y%m%d`
+   59  tree}
+   60  tree
+   61  touch scr/.gitignore
+   62  which touch 
+   63  touch src/.gitignore
+   64  ls -a src/
+   65  touch .gitignore
+   66  ls
+   67  ls .la
+   68  ls -la
+   69  echo "*~" > .gitignore 
+   70  echo "*.swp" >> .gitignore 
+   71  ls
+   72  ls -la
+   73  tree
+   74  cat .gitignore 
+   75  which git
+   76  pwd
+   77  git init
+   78  ls -la
+   79  cd git
+   80  cd .git
+   81  ls
+   82  tree
+   83  cd 
+   84  ls 
+   85  ls .la
+   86  ls -la 
+   87  cat .gitconfig 
+   88  nano .gitconfig 
+   89  cat .gitconfig 
+   90  vim .gitconfig 
+   91  cat .gitconfig 
+   92  cd LXS2_dca/
+   93  ls
+   94  ls -la
+   95  git status
+   96  git add history/
+   97  git add .gitignore 
+   98  git add src/
+   99  git status 
+  100  cd history/
+  101  ls
+  102  rm history-ubn-06
+  103  rm history-ubn-0620161105 
+  104  ls
+  105  cd 
+  106  cd LXS2_dca/|
+  107  cd LXS2_dca/
+  108  ls
+  109  git status 
+  110  git commit -m "Inicio del repositorio de nivel 2"
+  111  git status 
+  112  git rm history/history-ubn-06
+  113  git rm history/history-ubn-062
+  114  git rm history/history-ubn-0620161105 
+  115  git status 
+  116  git add history/
+  117  git add src/
+  118  git add .gitignore 
+  119  git status 
+  120  git add history/history-ubn-06-20161105 
+  121  git add history/history-ubn-06
+  122  git status 
+  123  git add history/history-ubn-06-20161105
+  124  git add history/history-ubn-06
+  125  git status 
+  126  git reset history/history-ubn-06-20161105
+  127  git reset history/history-ubn
+  128  git status 
+  129  git reset HEAD history/history-ubn
+  130  git reset HEAD history/history-ubn-06-20161105
+  131  git reset HEAD history/history-ubn-06
+  132  git status 
+  133  git reset HEAD history/history-ubn-06-20161105
+  134  ls
+  135  #git remote add origin https://github.com/DavidCastillo11/LXS2_dca.git
+  136  git log
+  137  which gitk
+  138  sudo apt-get install gitk
+  139  gitk 
+  140  gitlog
+  141  git log
+  142  git status 
+  143  git remote add origin https://github.com/DavidCastillo11/LXS2_dca.git
+  144  git remote -v
+  145  git push origin master 
+  146  ls
+  147  cd src/
+  148  ls
+  149  lsb_release -a
+  150  cd
+  151  git clone https://github.com/emvarg/LXS2_evb.git
+  152  tree
+  153  git pull origin master 
+  154  which openssh
+  155  which openssh-server
+  156  apt-get install openssh-server -y
+  157  sudo apt-get install openssh-server -y
+  158  ls
+  159  git clone https://github.com/emvarg/LXS2_evb.git
+  160  git pull origin master
+  161  ifconfig
+  162  git pull origin master
+  163  cd LXS2_
+  164  cd LXS2_dca/
+  165  git pull origin master
+  166  git log
+  167  mkdir misc
+  168  rm -f misc
+  169  rm -rf misc
+  170  ls
+  171  cd
+  172  mkdir misc 
+  173  ls
+  174  ls -la
+  175  var1=perro
+  176  var2=casa
+  177  touch file-$var1-$var2
+  178  ls
+  179  dmesg
+  180  dmesg | tail+
+  181  dmesg | tail
+  182  dmesg | tail | wc
+  183  dmesg | wc
+  184  dmesg | head | wc
+  185  dmesg | head 23 | wc
+  186  dmesg | head n23 | wc
+  187  dmesg | head -23 | wc
+  188  echo $var2
+  189  $var2=perrito
+  190  var2=perrito
+  191  var1=casa
+  192  dmesg | head -20 | wc > Salida de $var2
+  193  dmesg | head -20 > Salida de $var2
+  194  dmesg | head -20 > Salida-de-$var2
+  195  ls
+  196  mv file-perro-casa LXS2_dca/
+  197  ls
+  198  mv Salida-de-perrito LXS2_dca/
+  199  ls
+  200  cd LXS2_dca/
+  201  ls
+  202  ifconfig -a > file-perro-casa 
+  203  ls -l
+  204  cd 
+  205  mv misc/ LXS2_dca/
+  206  cd LXS2_dca/
+  207  ls
+  208  mv Salida-de-perrito file-perro-casa misc/
+  209  ls
+  210  cd misc/
+  211  ls
+  212  cd ..
+  213  cd src/
+  214  git add ../misc/
+  215  git status 
+  216  git add commit -m "archivos de perrito"
+  217  git status 
+  218  git commit -m "Segundo Commit"
+  219  git log 
+  220  git -v
+  221  git 
+  222  git -v
+  223  git log
+  224  git remote -v
+  225  git push origin master 
+  226  env
+  227  env | less
+  228  $USER
+  229  $user
+  230  history | less
+  231  set
+  232  set | wc
+  233  $HOME
+  234  echo $OLDPWD
+  235  pwd
+  236  vim reporte.sh
+  237  ifconfig 
+  238  ifconfig eno1 donw
+  239  ifconfig eno1 down
+  240  sudo su
+  241  ls
+  242  ./reporte
+  243  ls -l
+  244  bash reporte.sh 
+  245  ls
+  246  cat reporte-20161105 
+  247  bash reporte.sh 
+  248  ls
+  249  rm reporte-20161105
+  250  ls
+  251  cat reporte-20161105.log 
+  252  chmod +x reporte.sh 
+  253  ls
+  254  git status 
+  255  git checkout ../history/history-ubn-06-20161105
+  256  git status 
+  257  git add reporte.sh 
+  258  git status 
+  259  git rm ../history/history-ubn-06
+  260  git status 
+  261  git reset HEAD ../history/history-ubn-06-20161105
+  262  git status 
+  263  git reset HEAD ../history/history-ubn-06-20161105
+  264  git status 
+  265  git reset ../history/history-ubn-06-20161105
+  266  git status 
+  267  git commit 
+  268  ./reporte.sh 
+  269  ls
+  270  cat reporte-20161105.log 
+  271  ./reporte.sh 
+  272  ls
+  273  cat reporte-20161105.log 
+  274  ./reporte.sh 
+  275  cat reporte-20161105.log 
+  276  ./reporte.sh 
+  277  cat reporte-20161105.log 
+  278  netstat | grep LISTEN
+  279  netstat - lautn | grep LISTEN
+  280  netstat -lautn | grep LISTEN
+  281  netstat -lautp | grep LISTEN
+  282  ./reporte.sh 
+  283  ls
+  284  ./reporte.sh 
+  285  bash reporte.sh 
+  286  ls
+  287  cd ..
+  288  ls 
+  289  ls -la
+  290  echo "*.log" >> .gitignore 
+  291  cat 
+  292  git status 
+  293  git log
+  294  git diff src/reporte
+  295  git diff src/reporte.sh
+  296  git add .gitignore 
+  297  git add src/reporte.sh 
+  298  git status 
+  299  git commit -m "agrego al sistema las ultimas modificaciones del script (puestos habilitados/interfaces activas)"
+  300  git log
+  301  gitk
+  302  git push origin master 
+  303  shutdown now
+  304  echo $MI_VAR 
+  305  pstrteee
+  306  pstree
+  307  pwd
+  308  vim ../../.bashrc 
+  309  echo $MI_VAR 
+  310  ./reporte.sh 
+  311  MI_VAR=perro
+  312  ./reporte.sh 
+  313  sudo ./reporte.sh 
+  314  vim ../../.bashrc 
+  315  sudo ./reporte.sh 
+  316  vim ../../.bashrc 
+  317  sudo ./reporte.sh 
+  318  vim ../../.bashrc 
+  319  echo #VAR1
+  320  echo VAR1
+  321  vim ../../.bashrc 
+  322  cat reporte.sh 
+  323  cd ../misc/
+  324  scp user1@10.124.18.37:tmp/auth.log.1 .
+  325  scp user1@10.124.18.37:/tmp/auth.log.1 .
+  326  ls
+  327  cat auth.log.1 
+  328  scp user1@10.124.18.37:/tmp/dhcpd.conf .
+  329  la
+  330  ls
+  331  tree
+  332  less dhcpd.conf 
+  333  grep "#" dhcpd.conf 
+  334  grep -v "#" dhcpd.conf 
+  335  }
+  336  grep -v "#" dhcpd.conf | grep fixed 
+  337  #grep -v "#" dhcpd.conf | sed '/^\s*$/d'
+  338  grep -v "#" dhcpd.conf | grep fixed 
+  339  grep -v "#" dhcpd.conf 
+  340  grep -v "#" dhcpd.conf | sed '/^\s*$/d'
+  341  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fix
+  342  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2
+  343  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d -f2
+  344  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d f2
+  345  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut f2
+  346  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2
+  347  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2 | set '/$/d'
+  348  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2 | set 's/;//'
+  349  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2 
+  350  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2 | sed 's/;//'
+  351  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2 | sed 's/;//' | cut -d "." f4 
+  352  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2 | sed 's/;//' | cut -d "." -f4 
+  353  grep -v "#" dhcpd.conf | sed '/^\s*$/d' | grep fixed | cut -d " " -f2 | sed 's/;//' | cut -d "." -f4 > clientes_ocupados.log 
+  354  ls -la
+  355  rm clientes_ocupados.log 
+  356  ls
+  357  tree
+  358  cd ../src/
+  359  ls
+  360  ./variables-0.1.sh 
+  361  ls
+  362  cat clientes_ocu
+  363  cat clientes_ocupados.log
+  364  cat clientes_ocupado.log
+  365  ls
+  366  cat clientes_ocupados.log
+  367  cat clientes_ocuados.log 
+  368  ./variables-0.1.sh 
+  369  cd ../misc/
+  370  ls
+  371  cd ../src/
+  372  ls
+  373  rm clientes_ocuados.log 
+  374  rm clientes_ocupados.log 
+  375  ls
+  376  ./variables-0.1.sh 
+  377  ls
+  378  cat clientes_ocupados.log 
+  379  rm clientes_ocupados.log 
+  380  cp ../misc/dhcpd.conf .
+  381  ls
+  382  ./variables-0.1.sh 
+  383  ls
+  384  cat clientes_ocupados.log 
+  385  ls
+  386  cd 
+  387  hosotry
+  388  history
+  389  cd LXS2_dca/
+  390  ls 
+  391  cd history/
+  392  ls
+  393  history >> history-ubn-06-20161105 
