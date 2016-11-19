@@ -1,0 +1,157 @@
+    1  pwd
+    2  ls -a
+    3  #mv .bash_history .bash_history
+    4  mkdir old_history
+    5  mv .bash_history old_history/
+    6  ls
+    7  la la
+    8  cat .bash_history.old 
+    9  touch .bash_history
+   10  ls
+   11  ls -la
+   12  ls -a
+   13  rm .bash_history.old 
+   14  ls
+   15  rm .bash_history.old 
+   16  history 
+   17  history 
+   18  echo 4\*2\>10 es\ falso 
+   19  echo "4*2>10 es falso"
+   20  echo "El precio total es de \$5"
+   21  echo 'El precio total es de $5'
+   22  echo 4\*2\>10 es falso 
+   23  find
+   24  find .
+   25  tree find .
+   26  find .
+   27  grep s* `find.`
+   28  $?
+   29  grep s* `find .`
+   30  grep *s `find .`
+   31  tail *s `find .`
+   32  ifconfig
+   33  ssh user1@10.124.18.28
+   34  #######inicio de seccion de entrecomillado########
+   35  VAR1=trump
+   36  echo $VAR1 es una rata 
+   37  init
+   38  pstree | less
+   39  sudo apt-get install apache2
+   40  which apache
+   41  which apache2
+   42  which apache
+   43  which apache2
+   44  pstree | less
+   45  which apache2
+   46  cd /var/
+   47  ls
+   48  cd www/
+   49  ls
+   50  cd html/
+   51  cd .. ..
+   52  cd ..
+   53  cd lo
+   54  cd log
+   55  cd apache2/
+   56  ls
+   57  watch -n 1 "tail access.log"
+   58  ifconfig 
+   59  netstap -latunp
+   60  netstat -latunp
+   61  netstat el latunp | grep LISTEN
+   62  netstat -latunp | grep LISTEN
+   63  netstat -latunp | grep 22
+   64  netstat -latunp | grep :22
+   65  sudo netstat -latunp | grep :22
+   66  netstat -latunp | grep :22
+   67  ps aux
+   68  ps aux | less
+   69  q
+   70  Dcd 
+   71  cd
+   72  cd LXS2_dca/
+   73  cd misc/
+   74  ls
+   75  vim test1.txt
+   76  jobs 
+   77  cd /etc/apache2/sites-available/
+   78  ls
+   79  cat 000-default.conf 
+   80  cat 000-default.conf | grep -v "#"
+   81  jobs
+   82  fg
+   83  ls
+   84  jobs 
+   85  fg
+   86  ls
+   87  cd
+   88  cd LXS2_dca/
+   89  ls
+   90  cd misc/
+   91  ls
+   92  cat test1.txt 
+   93  cd
+   94  pushd ~LXS2_dca~
+   95  pushd ~LXS2_dac~
+   96  cd LXS2_dca/
+   97  cd M
+   98  cd misc/
+   99  ls
+  100  yes hola > /dev/n
+  101  yes hola > /dev/null 
+  102  yes hola > /dev/null &
+  103  ping 8.8.8.8 &
+  104  jobs
+  105  ping 8.8.8.8 > /dev/null &
+  106  jobs
+  107  ps aux
+  108  kill -9 7509
+  109  jobs
+  110  jobs
+  111  yes hola > /dev/null 
+  112  yes hola > /dev/null &
+  113  ping 8.8.8.8 > /dev/null &
+  114  cd LXS2_dca/
+  115  cd misc/
+  116  ls
+  117  vim test1.txt
+  118  jobs
+  119  fg 2
+  120  bg 2 
+  121  jobs
+  122  pretree
+  123  pstree
+  124  ps
+  125  kill -15 `pgrep yes`
+  126  jobs
+  127  kill -15 `pgrep yes hola`
+  128  kill -15 `pgrep yes`
+  129  jobs
+  130  w
+  131  free
+  132  free -h 
+  133  df -lh
+  134  uptime
+  135  ssh sysadmin@10.124.18.28 
+  136  which htop
+  137  sudo apt-get install htop
+  138  sudo apt-get install htop -y
+  139  htop
+  140  jobs
+  141  kill -9 `pgrep ping`
+  142  jobs
+  143  htop
+  144  sudo apt-get install iotop -y
+  145  iotop 
+  146  sudo iotop
+  147  sudo apt-get install iftop -y
+  148  sudo iftop
+  149  history 
+  150  cd ..
+  151  ls
+  152  cd src/
+  153  ls
+  154  exit
+  155  cd LXS2_dca/
+  156  exit
+  157  history > LXS2_dca/history/history-$HOSTNAME-`date +Y%m%d`
