@@ -1,0 +1,488 @@
+    1  pwd
+    2  ls -a
+    3  #mv .bash_history .bash_history
+    4  mkdir old_history
+    5  mv .bash_history old_history/
+    6  ls
+    7  la la
+    8  cat .bash_history.old 
+    9  touch .bash_history
+   10  ls
+   11  ls -la
+   12  ls -a
+   13  rm .bash_history.old 
+   14  ls
+   15  rm .bash_history.old 
+   16  history 
+   17  history 
+   18  echo 4\*2\>10 es\ falso 
+   19  echo "4*2>10 es falso"
+   20  echo "El precio total es de \$5"
+   21  echo 'El precio total es de $5'
+   22  echo 4\*2\>10 es falso 
+   23  find
+   24  find .
+   25  tree find .
+   26  find .
+   27  grep s* `find.`
+   28  $?
+   29  grep s* `find .`
+   30  grep *s `find .`
+   31  tail *s `find .`
+   32  ifconfig
+   33  ssh user1@10.124.18.28
+   34  #######inicio de seccion de entrecomillado########
+   35  VAR1=trump
+   36  echo $VAR1 es una rata 
+   37  init
+   38  pstree | less
+   39  sudo apt-get install apache2
+   40  which apache
+   41  which apache2
+   42  which apache
+   43  which apache2
+   44  pstree | less
+   45  which apache2
+   46  cd /var/
+   47  ls
+   48  cd www/
+   49  ls
+   50  cd html/
+   51  cd .. ..
+   52  cd ..
+   53  cd lo
+   54  cd log
+   55  cd apache2/
+   56  ls
+   57  watch -n 1 "tail access.log"
+   58  ifconfig 
+   59  netstap -latunp
+   60  netstat -latunp
+   61  netstat el latunp | grep LISTEN
+   62  netstat -latunp | grep LISTEN
+   63  netstat -latunp | grep 22
+   64  netstat -latunp | grep :22
+   65  sudo netstat -latunp | grep :22
+   66  netstat -latunp | grep :22
+   67  ps aux
+   68  ps aux | less
+   69  q
+   70  Dcd 
+   71  cd
+   72  cd LXS2_dca/
+   73  cd misc/
+   74  ls
+   75  vim test1.txt
+   76  jobs 
+   77  cd /etc/apache2/sites-available/
+   78  ls
+   79  cat 000-default.conf 
+   80  cat 000-default.conf | grep -v "#"
+   81  jobs
+   82  fg
+   83  ls
+   84  jobs 
+   85  fg
+   86  ls
+   87  cd
+   88  cd LXS2_dca/
+   89  ls
+   90  cd misc/
+   91  ls
+   92  cat test1.txt 
+   93  cd
+   94  pushd ~LXS2_dca~
+   95  pushd ~LXS2_dac~
+   96  cd LXS2_dca/
+   97  cd M
+   98  cd misc/
+   99  ls
+  100  yes hola > /dev/n
+  101  yes hola > /dev/null 
+  102  yes hola > /dev/null &
+  103  ping 8.8.8.8 &
+  104  jobs
+  105  ping 8.8.8.8 > /dev/null &
+  106  jobs
+  107  ps aux
+  108  kill -9 7509
+  109  jobs
+  110  jobs
+  111  yes hola > /dev/null 
+  112  yes hola > /dev/null &
+  113  ping 8.8.8.8 > /dev/null &
+  114  cd LXS2_dca/
+  115  cd misc/
+  116  ls
+  117  vim test1.txt
+  118  jobs
+  119  fg 2
+  120  bg 2 
+  121  jobs
+  122  pretree
+  123  pstree
+  124  ps
+  125  kill -15 `pgrep yes`
+  126  jobs
+  127  kill -15 `pgrep yes hola`
+  128  kill -15 `pgrep yes`
+  129  jobs
+  130  w
+  131  free
+  132  free -h 
+  133  df -lh
+  134  uptime
+  135  ssh sysadmin@10.124.18.28 
+  136  which htop
+  137  sudo apt-get install htop
+  138  sudo apt-get install htop -y
+  139  htop
+  140  jobs
+  141  kill -9 `pgrep ping`
+  142  jobs
+  143  htop
+  144  sudo apt-get install iotop -y
+  145  iotop 
+  146  sudo iotop
+  147  sudo apt-get install iftop -y
+  148  sudo iftop
+  149  history 
+  150  cd ..
+  151  ls
+  152  cd src/
+  153  ls
+  154  exit
+  155  cd LXS2_dca/
+  156  exit
+  157  ls
+  158  cd LXS2_dca/
+  159  ls
+  160  git status 
+  161  git rm misc/file-perro-casa
+  162  git status 
+  163  ls
+  164  ls misc/
+  165  rm src/dhcpd.conf 
+  166  rm misc/test1.txt
+  167  ls -l
+  168  git status
+  169  tree
+  170  exit 
+  171  ipadd -4 
+  172  ip -4 add
+  173  history > LXS2_dca/history/history-$HOSTNAME-`date +Y%m%d`
+  174  git status 
+  175  cd LXS2_dca/
+  176  ls 
+  177  git status 
+  178  git add history/history-ubn-06-Y1119 
+  179  git status 
+  180  git commit history/history-ubn-06-Y1119 
+  181  git commit
+  182  git status
+  183  git commit class_3 
+  184  git commit class3 
+  185  git commit -m class3 
+  186  git status
+  187  git push origin master 
+  188  git remote -v 
+  189  git remote add mi_repo_2 https://github.com/DavidCastillo11/LXS2_repo2.git
+  190  git remote -v
+  191  git push mi_repo_2 master 
+  192  git push https://github.com/DavidCastillo11/LXS2_repo2.git master 
+  193  sudo shutdown -h now
+  194  reboot
+  195  cd LXS2_dca/
+  196  ls
+  197  cp -r /home/sysadmin/LXS2_evb/lvm
+  198  #cp -r /home/sysadmin/LXS2_evb/lvm 
+  199  pwd
+  200  cp -r /home/sysadmin/LXS2_evb/lvm /home/sysadmin/LXS2_dca
+  201  ls
+  202  cd lvm/
+  203  ls
+  204  ls
+  205  git clone https://github.com/emvarg/LXS2_evb.git
+  206  ls
+  207  cd LXS2_evb/
+  208  ls
+  209  cd lvm/
+  210  ls
+  211  pwd
+  212  sudo su
+  213  exit
+  214  sudo su
+  215  man dd
+  216  virsh
+  217  cd /etc/libvirt/storage/autostart/
+  218  ls -l
+  219  virsh
+  220  sudo virsh
+  221  cd /media/
+  222  LS
+  223  ls
+  224  cd sysadmin/
+  225  ls
+  226  cd media-pool/
+  227  ls
+  228  cp disk-00.img 
+  229  cp disk-00.img /var/lib/libvirtd/images/
+  230  cp  disk-00.img  /var/lib/libvirtd/images/
+  231  cp  disk-00.img /var/lib/libvirtd/images
+  232  cp  disk-00.img /var/lib/libvirt/image
+  233  sudo cp  disk-00.img /var/lib/libvirt/image
+  234  sudo cp  disk-01.img /var/lib/libvirt/image
+  235  cd /var/lib/libvirt/image
+  236  cd /var/
+  237  la
+  238  ls
+  239  cd lib/
+  240  ls
+  241  cd libvirt/
+  242  ls
+  243  ls 
+  244  ls image
+  245  cd images/
+  246  cd ..
+  247  rm -rf image
+  248  sudo rm -rf image
+  249  ls images/
+  250  sudo ls images/
+  251  pwd
+  252  cd images/
+  253  ls
+  254  sudo ls
+  255  pwd
+  256  history 
+  257  cd /media/sysadmin/media-pool/
+  258  ls
+  259  cp disk-00.img /var/lib/libvirt/images
+  260  sudo cp disk-00.img /var/lib/libvirt/images
+  261  ls
+  262  sudo cp disk-01.img /var/lib/libvirt/images
+  263  cd /var/lib/libvirt/images
+  264  ls
+  265  sudo lks
+  266  sudo ls
+  267  ssh 192.168.122.250
+  268  ip 4 -add
+  269  ip 4 add
+  270  ip -4 add
+  271  cd /media/sysadmin/media-pool/
+  272  ls
+  273  sudo su
+  274  ls .ssh/
+  275  sudo ls .ssh/
+  276  ssh-copy-id sysadmin
+  277  ssh-copy-id sysadmin@192.168.122.250
+  278  keygen ssh
+  279  keygen
+  280  ssh keygen
+  281  ssh keygen 
+  282  ssh-keygen -t rsa 
+  283  ssh-copy-id sysadmin@192.168.122.250
+  284  ssh sysadmin@192.168.122.250
+  285  git status 
+  286  cd LXS2_dca/
+  287  git status 
+  288  ls
+  289  git status 
+  290  git add 
+  291  git add lvm/
+  292  git commit -m "Lmv_class"
+  293  git pull origin master 
+  294  ls
+  295  git status 
+  296  git push origin master 
+  297  ls
+  298  cd lvm/
+  299  ls
+  300  vim gui-lvm.wiki 
+  301  cd /var/lib/libvirtd/images/
+  302  cd /var/lib/libvirtd
+  303  cd /var/lib
+  304  ls
+  305  cd libvirt/
+  306  ls
+  307  images
+  308  cd images/
+  309  ls
+  310  pwd
+  311  cd LXS2_dca/
+  312  ls
+  313  git status 
+  314  cd lvm/
+  315  ls
+  316  mv gui-lvm.wiki guia-lvm.wiki
+  317  ls
+  318  git status 
+  319  got rm gui-lvm.wiki 
+  320  ls
+  321  git status 
+  322  git commit guia-lvm.wiki 
+  323  git commit guia-lvm.wiki ls
+  324  ls
+  325  git status 
+  326  git add guia-lvm.wiki 
+  327  git commit LVM_class 
+  328  git commit "LVM_class" 
+  329  git commit -m "LVM_class" 
+  330  git push origin master 
+  331  git status 
+  332  git rm gui-lvm.wiki 
+  333  git status 
+  334  git reset HEAD gui-lvm.wiki
+  335  git status 
+  336  git rm gui-lvm.wiki 
+  337  exit
+  338  cd
+  339  git clone https://github.com/emvarg/LXS2_evb.git
+  340  exit
+  341  cd
+  342  touch 1
+  343  ls
+  344  rm 1
+  345  ls
+  346  vim script_guia-sh
+  347  vim script_guia.sh
+  348  ecit
+  349  exit
+  350  echo $BASH_VERSION | cut -d "(" .f1` == $VERSION_BASH
+  351  echo $BASH_VERSION | cut -d "(" .f1`
+  352  echo $BASH_VERSION | cut -d "(" .f1
+  353  echo $BASH_VERSION | cud -d "(" .f1
+  354  echo $BASH_VERSION | cut -d "(" .f1
+  355  echo $BASH_VERSION
+  356  echo $BASH_VERSION | cut "(" .f1
+  357  echo $BASH_VERSION | awk '{print 1}'
+  358  echo $BASH_VERSION | cut -d "(" -f1
+  359  lsb_release 
+  360  lsb_release -l
+  361  lsb_release -a
+  362  lsb_release -d
+  363  lsb_release -i
+  364  lsb_release -i | awk '{print $3}'
+  365  `echo $BASH_VERSION | cut -d "(" -f1`
+  366  echo $BASH_VERSION | cut -d "(" -f1
+  367  ssh-keygen
+  368  ls .ssh/
+  369  cat id_rsa.pub
+  370  which cat 
+  371  cat .ssh/id_rsa.pub 
+  372  cd LXS2_dca/
+  373  ñs
+  374  ls
+  375  cd misc/
+  376  ls
+  377  cd ..
+  378  cd src/
+  379  lñs
+  380  ls
+  381  vim reporte
+  382  vim .sh
+  383  ls
+  384  vim exit-code.sh
+  385  vim resume.sh
+  386  vim distros.sh
+  387  exit
+  388  cd LXS2_dca/
+  389  ls
+  390  cd src/
+  391  lñs
+  392  ls
+  393  tree
+  394  mv .sh exit-code.sh
+  395  ls
+  396  chmod 750 exit-code.sh 
+  397  ./exit-code.sh 
+  398  echo $? 
+  399  ./exit-code.sh 
+  400  echo $? 
+  401  $$
+  402  $*
+  403  $@
+  404  ls -h
+  405  ls -a
+  406  ls -la
+  407  $#
+  408  ls
+  409  chmod 750 resume.sh 
+  410  ls
+  411  ./resume.sh 
+  412  ./resume.sh casa 
+  413  ./resume.sh casa perro carro
+  414  ./resume.sh blanco negro azul
+  415  $# casa
+  416  $#
+  417  ./resume.sh 
+  418  $#
+  419  $#1
+  420  $#
+  421  ./resume.sh 
+  422  ./resume.sh casa perro casa
+  423  ./resume.sh casa perro gato
+  424  ./resume.sh perro gato vaca
+  425  ./resume.sh tortuga gato vaca
+  426  ./resume.sh  gato vaca
+  427  ./resume.sh tortuga perro vaca
+  428  ./resume.sh tortuga perr vaca
+  429  ./resume.sh tortuga perro vaca
+  430  bash --version
+  431  ls
+  432  chmod 750 script_guia.sh 
+  433  ls
+  434  touch archivo1.txt
+  435  ls
+  436  ./script_guia.sh 
+  437  ls
+  438  ./resume.sh 
+  439  $BASH_VERSI
+  440  $BASH_VERSION 
+  441  echo $BASH_VERSION | cut -d "(" -f1` == $VERSION_BASH
+  442  echo $BASH_VERSION | cut -d "(" -f1`
+  443  echo $BASH_VERSION | cut -d "(" -f1
+  444  ./resume.sh 
+  445  $BASH_VERSION 
+  446  echo $BASH_VERSION 
+  447  ./resume.sh 
+  448  ./resume.sh perro casa gato
+  449  ./resume.sh tor
+  450  ./resume.sh perro casa gato
+  451  ./resume.sh tortuga perro casa
+  452  ./resume.sh tortuga perro gato
+  453  ./resume.sh tortuga perro
+  454  ./resume.sh tortuga perro gato
+  455  ./resume.sh tortuga perro casa
+  456  last | head -n 5
+  457  chmod 750 distros.sh 
+  458  ./distros.sh 
+  459  ./distros.sh ubuntu
+  460  S1
+  461  $1
+  462  ls
+  463  ./distros.sh 
+  464  exit
+  465  history 
+  466  history > /home/sysadmin/LXS2_dca/history history_class6
+  467  cd LXS2_dca/
+  468  cd history/
+  469  ls
+  470  history > history-$HOSTNAME-%Y%m%d
+  471  ls
+  472  rm history-ubn-06-%Y%m%d 
+  473  history > history-$HOSTNAME-´+%Y%m%d´
+  474  ls
+  475  rm history-$HOSTNAME-´+%Y%m%d´
+  476  history > history-$HOSTNAME-´%Y%m%d´
+  477  ls
+  478  cd 
+  479  cd LXS2_dca/
+  480  ls
+  481  git status 
+  482  cd..
+  483  cd .
+  484  ls
+  485  cd history/
+  486  ls
+  487  rm history-$HOSTNAME-´%Y%m%d´
+  488  history > history-$HOSTNAME-bashclass
