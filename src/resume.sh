@@ -37,7 +37,7 @@ else
 	#Para igualdades uso ==
 	if [[ $2 == perro ]]
 	then
-		echo "el parametro dos es perro!"
+		echo "El parametro dos es perro!"
 	else
 		echo "El parametro dos no es perro"
 	fi
