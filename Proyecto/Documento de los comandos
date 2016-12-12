@@ -1,0 +1,10 @@
+Los comandos utilizados para este trabajo fueron: 
+lvdisplay
+pvdisplay
+vgdisplay
+pvcreate 
+lvcreate 
+vgcreate
+fdisk
+resize2fs
+partprobe
